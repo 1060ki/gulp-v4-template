@@ -20,6 +20,10 @@ export default {
     excluded_src: `!${SOURCE}/ejs/**/_*.ejs`,
     dest: `${DESTINATION}`
   },
+  images: {
+    src: `${SOURCE}/assets/images/**/*`,
+    dest: `${DESTINATION}/assets/images`
+  },
   env: env,
   isDevelopment: env == "development",
   isProduction: env == "production"
